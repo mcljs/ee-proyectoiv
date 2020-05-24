@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://ee-proyectoiv.now.sh/"
 languageCode = "en-us"
 title = "TRAYECTO IV"
 theme = "navigator-hugo"
