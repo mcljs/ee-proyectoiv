@@ -1,0 +1,151 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "TRAYECTO IV"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "TRAYECTO IV"
+dateFormat = "January 2, 2006"
+
+home = "INICIO"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+footerServiceTitle = "Service"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "Trayecto IV UNEXCA - UNIDAD DE AUTISMO"
+description = "Creada con la finalidad de orientar a los padres, representantes y responsables de niños, niñas y adolescentes con Trastornos del Neurodesarrollo y dar a conocer las herramientas utilizadas por los especialistas que trabajan dentro de esta Unidad. En el transcurso de los días, se publicará información relevante"
+button  = true
+btnText = "Instagram"
+btnURL  = "https://www.instagram.com/unidadautismo/?hl=es-la&fbclid=IwAR1e5WStjf-1AqEEiD9IPc5Z4phdBkeg3Wpx5VelPDzBIkV3FHXoyCIRtMY"
+videoThumb = "images/slider/unidadautismo.jpg"
+videoURL   = "https://www.youtube.com/embed/eYp1_yBjMd0"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "¡UNETE A NUESTRO GRUPO DE INSTAGRAM!"
+description = "✔ Información sobre la ubicación de la Unidad de Autismo. ✔ El tratamiento utilizado por los especialistas de la Unidad. ✔ Investigaciones sobre los Trastornos del Neurodesarrollo. ✔ Guías interactivas de las rutinas diarias de la vida para la enseñanza-aprendizaje. ✔ Explicar la utilización del método Teacch. "
+
+
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "NOTICIAS,ACTUALIZACION,INFORMACION Y FOROS"
+title   = "Blog"
+subtitle= "Actualizacion de Informacion y Noticias sobre el contenido de trabajo en nuestro Proyecto"
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "service"
+url     = "service"
+weight  = 3
+[[menu.nav]]
+name    = "portfolio"
+url     = "portfolio"
+weight  = 4
+[[menu.nav]]
+name    = "blog"
+url     = "blog"
+weight  = 5
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 6
+
+# Footer Service Menu
+[[menu.service]]
+name    = "graphicdesign"
+url     = "service"
+weight  = 1
+[[menu.service]]
+name    = "webdesign"
+url     = "service"
+weight  = 2
+[[menu.service]]
+name    = "webdevelopment"
+url     = "service"
+weight  = 3
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name    = "partners"
+url     = "about"
+weight  = 1
+[[menu.quicklink]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[menu.quicklink]]
+name    = "faqs"
+url     = "about"
+weight  = 3
+[[menu.quicklink]]
+name    = "badges"
+url     = "about"
+weight  = 4

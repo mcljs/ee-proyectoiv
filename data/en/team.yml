@@ -1,0 +1,37 @@
+enable  : true
+topTitle: MIEMBROS
+title   : EQUIPO DE TRABAJO
+subtitle: Equipo de Proyecto IV
+
+member  :
+  - image         : images/team/member1.jpg
+    name          : Eiling Daniela Pestana
+    designation   : Estudiante
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/profile.php?id=100002486763204
+    twitterURL    : https://twitter.com/
+
+  - image         : images/team/member2.jpg
+    name          : Leonimar Hernandez
+    designation   : Estudiante
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/leonimar.hernandez.9
+    twitterURL    : https://twitter.com/
+
+  - image         : images/team/member3.jpg
+    name          : Angelica Rodriguez
+    designation   : Estudiante
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/profile.php?id=100014833571526
+    twitterURL    : https://twitter.com/
+
+  - image         : images/team/member4.jpg
+    name          : Genesis Castillo
+    designation   : Estudiante
+    description   : >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    facebookURL   : https://www.facebook.com/profile.php?id=100012022306877
+    twitterURL    : https://twitter.com/

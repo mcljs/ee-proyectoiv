@@ -1,0 +1,18 @@
+enable  : true
+item  :
+  - icon  : tf-ion-ios-copy-outline
+    title : Objetivo del Proyecto
+    description : >
+      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+
+ 
+  - icon  : tf-ion-ios-book-outline
+    title : Alcanze del Proyecto
+    description : >
+      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+
+
+  - icon  : tf-ion-ios-copy-outline
+    title : Metas alcanzadas
+    description : >
+      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.

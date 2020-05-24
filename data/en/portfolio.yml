@@ -1,0 +1,29 @@
+enable  : true
+topTitle: TRABAJO RECIENTES
+title   : FOTOS DEL PROYECTO 
+subtitle: Trayecto fotografico de los momentos de labores y ejecucion de nuestro proyecto
+
+filtermenu :
+  - name      : Fotografia
+    category  : photography
+
+
+
+item   :
+  - title : Culminacion de Poyecto Trayecto III
+    image : images/portfolio/portfolio-1.jpg
+    category  : photography
+
+  - title : Culminacion de Poyecto Trayecto III
+    image : images/portfolio/portfolio-2.jpg
+    category  : photography
+
+  - title : RECREACION
+    image : images/portfolio/portfolio3.jpg
+    category  : photography
+
+  - title : RECREACION
+    image : images/portfolio/portfolio4.jpg
+    category  : photography
+
+  
